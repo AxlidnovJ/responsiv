@@ -5,10 +5,11 @@
     text-decoration: none;
 }
 
-.container {
+
+/* .container {
     width: 1140px;
     margin: 0% auto;
-}
+} */
 
 nav {
     padding: 20px;
@@ -26,4 +27,28 @@ nav {
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 20px;
+    padding: 0px 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: blue;
+    border: 2px solid chocolate;
+    padding: 20px;
+    border-radius: 2px;
+    display: none;
+}
+
+@media (max-width:500px) {
+    .btn {
+        display: block;
+    }
+    .nav-link {
+        display: none;
+    }
 }
