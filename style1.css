@@ -13,7 +13,7 @@
 
 nav {
     padding: 20px;
-    background-color: sandybrown;
+    background-color: rgb(78, 31, 155);
 }
 
 .menu {
@@ -28,6 +28,7 @@ nav {
     font-weight: 600;
     font-size: 20px;
     padding: 0px 20px;
+    color: white;
 }
 
 .nav-list {
@@ -44,7 +45,89 @@ nav {
     display: none;
 }
 
-@media (max-width:500px) {
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(49, 212, 196);
+    width: 100%;
+}
+
+
+/* .content-image {
+    width: 90%;
+} */
+
+.content-img {
+    width: 700px;
+}
+
+.content-content {
+    margin: 20px;
+    padding: 10px;
+    background-color: tomato;
+}
+
+.content-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width:1024px) {
+    .container {
+        width: 924px;
+    }
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    }
+    .content-img {
+        width: 600px;
+    }
+}
+
+@media (max-width:924px) {
+    .container {
+        width: 824px;
+    }
+    .content-img {
+        width: 500px;
+    }
+}
+
+@media (max-width:824px) {
+    .container {
+        width: 724px;
+    }
+    .content-img {
+        width: 400px;
+    }
+}
+
+@media (max-width:624px) {
+    .container {
+        width: 524px;
+    }
+    .content-img {
+        width: 400px;
+    }
+}
+
+@media (max-width:524px) {
+    .container {
+        width: 424px;
+    }
+    .content-img {
+        width: 400px;
+    }
     .btn {
         display: block;
     }
