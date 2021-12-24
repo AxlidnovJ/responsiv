@@ -58,6 +58,12 @@ nav {
     width: 90%;
 } */
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-img {
     width: 700px;
 }
